@@ -6,9 +6,9 @@ function init() {
     }
 }
 function toggle() {
-    if (this.nextElementSibling.style.display == 'none') {
-        this.nextElementSibling.style.display = 'block';
-    } else {
+    if (this.nextElementSibling.style.display == 'block') {
         this.nextElementSibling.style.display = 'none';
+    } else {
+        this.nextElementSibling.style.display = 'block';
     }
 }
